@@ -156,7 +156,7 @@ do_modwebapi(){
 	if [[ ${is_auto} != "y" ]]; then
 		echo -n "请输入WebAPI url:"
 		read webapi_url
-		echo -n "请输入WebAPI token:"
+		echo -n "请输入WebAPI muKey:"
 		read webapi_token
 		echo -n "服务器节点ID:"
 		read node_id
