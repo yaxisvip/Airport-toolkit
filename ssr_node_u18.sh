@@ -93,7 +93,7 @@ cd /soft
 echo "检查是否存在Shadowsocksr服务器软件..."
 if [ ! -d "shadowsocks" ]; then
 	echo "从GitHub安装Shadowsocksr服务器..."
-	cd /tmp && git clone -b manyuser https://github.com/NimaQu/shadowsocks.git
+	cd /tmp && git clone -b manyuser https://github.com/yaxisvip/shadowsocks.git
 	mv -f shadowsocks /soft
 else
 	while :; do echo
